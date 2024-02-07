@@ -1,0 +1,41 @@
+.ue {
+  padding: 40px 12px;
+}
+
+.about {
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.UIUX {
+  background-color: rgb(255, 255, 255);
+}
+.UIUX .uiue_ue {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.UIUX .uiue_ue .uiux_p {
+  width: 320px;
+  height: 240px;
+  background-color: rgb(172, 172, 172);
+  margin: 30px auto;
+}
+.UIUX .col-md-1 {
+  background-color: rgb(255, 255, 255);
+}
+
+.DESIGN {
+  background-color: rgb(255, 255, 255);
+}
+.DESIGN .de_ue {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.DESIGN .de_ue .de_p {
+  background-color: bisque;
+  width: 320px;
+  height: 240px;
+  background-color: rgb(199, 199, 199);
+  margin: 30px auto;
+}/*# sourceMappingURL=index.css.map */

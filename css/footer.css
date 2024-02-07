@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.footer .nav {
+  justify-content: flex-end;
+}
+.footer .nav ul {
+  display: flex;
+  padding: 0px 40px 20px 40px; /* 移除預設的內邊距 */
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer .nav li {
+  margin-right: 40px; /* 給每個項目添加間距，以防止它們貼在一起 */
+}
+.footer hr {
+  border-top: 1px solid #212529;
+  margin-bottom: 10px;
+}
+.footer .copyright {
+  font-size: 14px;
+  color: #212529;
+}/*# sourceMappingURL=footer.css.map */

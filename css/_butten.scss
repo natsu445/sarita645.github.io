@@ -1,0 +1,56 @@
+.button_Motto {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+
+    color: #818181;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.button_Motto:hover {
+    // background-color: #003e81;
+    color: #1A2C44;
+
+}
+
+
+
+
+
+//按鈕附近的箭頭
+// .arrow-button {
+//     position: relative;
+
+//   }
+
+//   .arrow-button::after {
+//     content: "";
+//     position: absolute;
+//     left: 50%;
+//     bottom: -10px; /* 调整箭头位置 */
+//     transform: translateX(-50%) rotate(45deg); /* 旋转箭头 */
+//     border: solid black;
+//     border-width: 0 2px 2px 0;
+//     padding: 3px;
+//   }
+
+
+  //按鈕附近的圖片
+  .image-button {
+    position: relative;
+  }
+  
+  .image-button::after {
+    content: url('../img/line1.png'); /* 替换为你的图像 URL */
+    position: absolute;
+    left:70%;
+    bottom:-10px; /* 调整图像位置 */
+    transform: translateX(-50%);
+
+  }
+

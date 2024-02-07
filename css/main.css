@@ -55,6 +55,19 @@ header .nav li:last-child {
   justify-content: center;
   background-color: rgb(255, 255, 255);
 }
+.about .about_L {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.about .about_R {
+  display: flex;
+  justify-content: center;
+}
+.about .about_R .img {
+  padding: 20px;
+}
+
 .UIUX {
   background-color: rgb(255, 255, 255);
 }

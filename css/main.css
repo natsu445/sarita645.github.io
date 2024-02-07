@@ -110,7 +110,7 @@ header .nav li:last-child {
 }
 
 .image-button::after {
-  content: url("/img/line1.png"); /* 替换为你的图像 URL */
+  content: url("../img/line1.png"); /* 替换为你的图像 URL */
   position: absolute;
   left: 70%;
   bottom: -10px; /* 调整图像位置 */

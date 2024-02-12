@@ -59,7 +59,7 @@ header .nav li:last-child {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
 }
 .about .about_R {
   display: flex;
@@ -127,9 +127,53 @@ header .nav li:last-child {
 .image-button::after {
   content: url("../img/line1.png"); /* 替换为你的图像 URL */
   position: absolute;
-  left: 70%;
-  bottom: -10px; /* 调整图像位置 */
+  left: 50%;
+  bottom: -2px; /* 调整图像位置 */
   transform: translateX(-50%);
+}
+
+.about00 {
+  background-color: aqua;
+}
+.about00 .banner_a {
+  background-color: cornflowerblue;
+  width: auto;
+  height: auto;
+}
+.about00 .banner_a .rol {
+  display: flex;
+}
+.about00 .banner_a .rol .ue_a {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about00 .banner_a .rol .ue_a p {
+  margin-top: 20px;
+  margin-bottom: 1rem;
+}
+
+p.special_a {
+  text-transform: uppercase; /* 将类为special的元素文字转换为大写 */
+  font-size: 60px;
+}
+
+span.special_b {
+  text-transform: uppercase; /* 将类为special的元素文字转换为大写 */
+  font-size: 60px;
+}
+
+span.txt {
+  line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
+  letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
+  font-size: 16px;
+}
+
+p.txt {
+  line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
+  letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
+  font-size: 16px;
 }
 
 @media (min-width: 576px) {
@@ -155,4 +199,9 @@ ul, ol {
 a {
   text-decoration: none; /* 去除底線 */
   color: inherit; /* 使用父元素的文字顏色 */
+}
+
+.blank {
+  width: auto;
+  height: 300px;
 }/*# sourceMappingURL=main.css.map */

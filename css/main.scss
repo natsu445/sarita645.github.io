@@ -1,8 +1,12 @@
 @import '_header.scss';
 @import'_footer.scss';
 @import'index.scss';
-@import '_variable.scss';
+
 @import'_butten.scss';     
+@import'_about.scss';
+
+@import '_variable.scss';
+
 
 
 
@@ -29,6 +33,10 @@ body {
     font-family: 'Noto Sans TC', sans-serif;
 
 
+
+
+
+
 }
 
 
@@ -44,3 +52,9 @@ ul ,ol{
     text-decoration: none; /* 去除底線 */
     color: inherit; /* 使用父元素的文字顏色 */
 }
+
+.blank {
+  width: auto;
+  height: 300px;
+}
+

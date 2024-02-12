@@ -4,3 +4,35 @@ $md:768px;
 $lg:992px;
 $xl:1200px;
 $xxl:1400px;
+
+
+
+//*banner 標題*//
+p.special_a{
+    text-transform: uppercase; /* 将类为special的元素文字转换为大写 */
+    font-size: 60px;
+
+}
+
+//*標題*//
+span.special_b{
+    text-transform: uppercase; /* 将类为special的元素文字转换为大写 */
+    font-size: 60px;
+}
+
+
+
+span.txt{
+    line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
+    letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
+    font-size: 16px;
+}
+
+
+
+//*一般文字*//
+p.txt{
+    line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
+    letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
+    font-size: 16px;
+}

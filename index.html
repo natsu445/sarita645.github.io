@@ -34,33 +34,54 @@
 
 <body>
 
-    <header class="header">
-        <div class="logo">
-            <!-- 這裡放置你的 logo -->
-            <img src="img/logo_a.png" alt="Logo">
-        </div>
-        <nav class="nav">
-            <ul>
-                <li><a href="./index.html">首頁</a></li>
-                <li><a href="./about.html">about</a></li>
-                <li><a href="#">UI/UX</a></li>
-                <li><a href="#">design</a></li>
+ <!-- 導覽列開始 -->
+ <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5 sticky-top">
+    <div class="container">
+        <a class="navbar-brand col-3" href="/index.html"><img src="/img/logo_a.png" alt=""></a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item ps-5">
+                    <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="index.html"
+                        >首頁</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ps-5" href="about.html"
+                        >about</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ps-5" href="uixu.html">UI/UX</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ps-5" href="design.html"
+                        >design</a
+                    >
+                </li>
             </ul>
-        </nav>
-        <div class="hamburger-menu">
-            <i class="material-icons">menu</i>
-
-
-            <span></span>
-            <span></span>
-            <span></span>
         </div>
-    </header>
+    </div>
+</nav>
+
 
 
     <div>
 
-        <div class="about">
+        <div class="about-00">
 
             <div class="container">
                 <div class="row">
@@ -103,11 +124,12 @@
 
 
 
-        <div class="container blank">
+        <!-- 空白符 樣式在 main
+            <div class="container blank">
             <div class="row">
                 <div class="col-md-12"></div>
             </div>
-        </div>
+        </div> -->
 
 
 
@@ -232,16 +254,33 @@
 
         </div>
 
+        <!-- 聯絡資訊開始 -->
+        <div class="container sarita-contact">
+            <div class="row h-100 align-items-center">
+                <div class="col-10 mx-auto text-center">
+                    <span class="mb-4 special_b">CONTACT</span>
+                    <br>
+                    <a href="#" class="text-decoration-none"
+                        >Email: sarita445645@gmail.com</a
+                    >
+                    <p class="mt-2">
+                        如果有工作委託、創意相關的諮詢，或是有趣的邀約，都歡迎隨時聯絡我。<br />
+                        期待收到您的來信，謝謝！
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- 聯絡資訊結束 -->
 
 
-
+    <!-- footer -->
         <footer class="footer">
             <nav class="nav">
                 <ul>
-                    <li><a href="#">首頁</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">UI/UX</a></li>
-                    <li><a href="#">design</a></li>
+                    <li><a href="/index.html">首頁</a></li>
+                    <li><a href="/about.html">about</a></li>
+                    <li><a href="/uixu.html">UI/UX</a></li>
+                    <li><a href="/design.html">design</a></li>
                 </ul>
             </nav>
             <hr>

@@ -1,5 +1,13 @@
-.about00 {
+body{
+    background-image: url(/img/img_bg_union.png),url(/img/img_bg_union2.png) ;
+    background-position: left  top ,left  bottom -1500px ;
+    background-size: contain,cover;
+    background-repeat: no-repeat,no-repeat;
+}
+.about {
     // background-color: aqua;
+
+
 
 
     .banner_a {
@@ -45,28 +53,54 @@
 
 
 
-    .box01 {
-padding-top: 200px;
+    .sarita-box02a {
+        padding-top: 200px;
+
         .rol {
             display: flex;
             justify-content: space-between;
         }
-        
-        .about_R{
-            img{
+
+        .about_R {
+            img {
                 max-width: 100%;
             }
         }
     }
-
-
-
-
-    .box01_shita{
+    .sarita-box02b {
         padding: 40px 0px;
     }
 
 
+
+    .sarita-box {
+        margin-bottom: 80px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .sarita-job {
+        padding: 0px 20px;
+
+    }
+
+    .sarita-job>ul>li {
+        list-style: none;
+
+
+    }
+
+
+    .sarita-contact {
+        // padding: 200px 0px;
+        height: 400px;
+        background-image: url(/img/img_bg_union4.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
 
 
 }

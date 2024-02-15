@@ -156,6 +156,11 @@ body {
 .uiux .sarita-job {
   padding: 0px 20px;
 }
+.uiux .DesignFlow-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .button_Motto {
   display: inline-block;
@@ -327,6 +332,12 @@ span.txt {
 
 p.txt {
   line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
+  letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
+  font-size: 16px;
+}
+
+p.txt2 {
+  line-height: 120%; /* 将行高设置为文字大小的1.5倍 */
   letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
   font-size: 16px;
 }

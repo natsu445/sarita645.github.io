@@ -94,7 +94,7 @@ body {
 
 .sarita-contact {
   height: 400px;
-  background-image: url(/img/img_bg_union4.png);
+  background-image: url(../img/img_bg_union4.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -258,7 +258,7 @@ body {
 }
 .about .sarita-contact {
   height: 400px;
-  background-image: url(/img/img_bg_union4.png);
+  background-image: url(../img/img_bg_union4.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

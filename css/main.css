@@ -313,6 +313,10 @@ body {
 .design #gallery-modal .modal-img {
   width: 100%;
 }
+.design .gallery-diaic {
+  display: flex;
+  align-items: center;
+}
 
 p.special_a {
   text-transform: uppercase; /* 将类为special的元素文字转换为大写 */

@@ -25,13 +25,6 @@
   color: #212529;
 }
 
-body {
-  background-image: url(../img/img_bg_union.png), url(../img/img_bg_union2.png);
-  background-position: left top, left bottom -1500px;
-  background-size: contain, cover;
-  background-repeat: no-repeat, no-repeat;
-}
-
 .ue {
   padding: 40px 12px;
 }
@@ -72,7 +65,7 @@ body {
   margin: 30px auto;
 }
 .UIUX .col-md-1 {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .DESIGN {
@@ -94,7 +87,7 @@ body {
 
 .sarita-contact {
   height: 400px;
-  background-image: url(../img/img_bg_union4.png);
+  background-image: url(../img/img_bg_union4b.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -165,8 +158,8 @@ body {
 .button_Motto {
   display: inline-block;
   padding: 10px 20px;
-  background-color: rgba(255, 255, 255, 0);
-  color: #818181;
+  background-color: rgba(141, 141, 141, 0);
+  color: #727272;
   border: none;
   border-radius: 5px;
   font-size: 16px;
@@ -175,7 +168,20 @@ body {
 }
 
 .button_Motto:hover {
-  color: #1A2C44;
+  color: rgba(57, 151, 108, 0.8);
+}
+
+.button_Motto2 {
+  background-color: rgba(141, 141, 141, 0);
+  color: #727272;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button_Motto2:hover {
+  color: rgba(57, 151, 108, 0.8);
 }
 
 .image-button {
@@ -184,10 +190,16 @@ body {
 
 .image-button::after {
   content: url("../img/line1.png"); /* 替换为你的图像 URL */
+  opacity: 60%;
   position: absolute;
-  left: 50%;
+  left: 0;
   bottom: -2px; /* 调整图像位置 */
-  transform: translateX(-50%);
+  transition: transform 0.6s ease; /* 添加過渡效果 */
+  transition: opacity 0.3s ease; /* 添加透明度過渡效果 */
+}
+
+.image-button:hover::after {
+  opacity: 20%;
 }
 
 .button_Motto-b > a {
@@ -222,13 +234,6 @@ body {
   padding-left: 0px;
   padding-right: 34px;
   transform: translateX(52px) rotate(45deg);
-}
-
-body {
-  background-image: url(../img/img_bg_union.png), url(../img/img_bg_union2.png);
-  background-position: left top, left bottom -1500px;
-  background-size: contain, cover;
-  background-repeat: no-repeat, no-repeat;
 }
 
 .about .banner_a {
@@ -280,7 +285,7 @@ body {
 }
 .about .sarita-contact {
   height: 400px;
-  background-image: url(../img/img_bg_union4.png);
+  background-image: url(../img/img_bg_union4b.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -308,12 +313,6 @@ body {
   margin-top: 20px;
   margin-bottom: 1rem;
 }
-.design body {
-  background-image: url(../img/img_bg_union.png), url(../img/img_bg_union2.png);
-  background-position: left top, left bottom -1500px;
-  background-size: contain, cover;
-  background-repeat: no-repeat, no-repeat;
-}
 .design .sarita-box {
   margin-bottom: 80px;
   border-bottom: 1px solid #ccc;
@@ -333,6 +332,22 @@ body {
 .design .gallery-diaic {
   display: flex;
   align-items: center;
+}
+
+.bg-tertiary {
+  background-color: rgba(255, 255, 255, 0.938); /* 白色背景*/
+}
+
+.navbar-nav {
+  --bs-nav-link-color: #727272;
+  --bs-nav-link-hover-color:rgb(57 151 108 / 80%);
+  --bs-nav-link-hover-bg-color: rgba(170, 60, 60, 0.5); /* 背景顏色為半透明白色 */
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 p.special_a {
@@ -380,7 +395,7 @@ p.txtframe {
   line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
   letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
   font-size: 16px;
-  border: 0.5px outset black; /* 设置边框宽度为2像素，样式为outset，颜色为黑色 */
+  border: 0.5px outset rgb(134, 134, 134); /* 设置边框宽度为2像素，样式为outset，颜色为黑色 */
   padding: 4px 10px;
 }
 
@@ -405,6 +420,13 @@ p.txtframe-O {
 }
 body {
   font-family: "Noto Sans TC", sans-serif;
+}
+
+body {
+  background-image: url(../img/img_bg_unionb.png), url(../img/img_bg_union2b.png);
+  background-position: left top, left bottom -1500px;
+  background-size: contain, cover;
+  background-repeat: no-repeat, no-repeat;
 }
 
 ul, ol {

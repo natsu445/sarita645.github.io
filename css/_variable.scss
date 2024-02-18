@@ -7,6 +7,33 @@ $xxl:1400px;
 
 
 
+// nav半透明背景
+.bg-tertiary{
+    background-color: rgba(255, 255, 255, 0.938); /* 白色背景*/
+}
+
+
+//nav 文字顏色+背景
+.navbar-nav{
+    --bs-nav-link-color: #727272;
+    --bs-nav-link-hover-color:rgb(57 151 108 / 80%);
+    --bs-nav-link-hover-bg-color: rgba(170, 60, 60, 0.5); /* 背景顏色為半透明白色 */
+
+
+}
+
+
+
+// uiux頁row用的
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+
+
 //*banner 標題*//
 p.special_a{
     text-transform: uppercase; /* 将类为special的元素文字转换为大写 */
@@ -68,7 +95,7 @@ p.txtframe{
     line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
     letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
     font-size: 16px;
-    border: 0.5px outset black; /* 设置边框宽度为2像素，样式为outset，颜色为黑色 */
+    border: 0.5px outset rgb(134, 134, 134); /* 设置边框宽度为2像素，样式为outset，颜色为黑色 */
 padding: 4px 10px;
 
 }

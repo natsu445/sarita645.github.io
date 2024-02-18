@@ -48,7 +48,7 @@
   .image-button::after {
     content: url('../img/line1.png'); /* 替换为你的图像 URL */
     position: absolute;
-    left:30%;
+    left:50%;
     bottom:-2px; /* 调整图像位置 */
     transform: translateX(-50%);
 
@@ -75,4 +75,23 @@
     padding-left: 8px;
     padding-right: 10px;
     transform: translateX(52px) rotate(45deg);
+}
+
+
+.sarita-about > a{
+ 
+  border-bottom: #ccc solid 2px;
+  padding-bottom: 6px;
+  padding-left: 4px;
+  padding-right: 46px;
+
+}
+.sarita-about > a::after{
+  content: "";
+  display: inline-block;
+  background-color: #ccc;
+  padding-bottom: 2px;
+  padding-left: 0px;
+  padding-right: 34px;
+  transform: translateX(52px) rotate(45deg);
 }

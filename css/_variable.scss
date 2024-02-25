@@ -41,7 +41,7 @@ p.special_a{
 
 }
 
-//*標題*//
+//*大標題*//
 span.special_b{
     text-transform: uppercase; /* 将类为special的元素文字转换为大写 */
     font-size: 60px;
@@ -54,6 +54,15 @@ span.txt{
     letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
     font-size: 16px;
 }
+
+
+p.special_c{
+    font-size: 30px;
+    line-height: 300%; /* 将行高设置为文字大小的1.5倍 */
+}
+
+
+
 
 
 

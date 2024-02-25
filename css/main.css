@@ -93,13 +93,6 @@
   background-repeat: no-repeat;
 }
 
-body {
-  background-image: url(../img/img_bg_union.png), url(../img/img_bg_union2.png);
-  background-position: left top, left bottom -1500px;
-  background-size: contain, cover;
-  background-repeat: no-repeat, no-repeat;
-}
-
 .uiux .banner_a {
   width: auto;
   height: auto;
@@ -171,8 +164,40 @@ body {
   background-image: url("../img/img-2317b.png"); /* 悬停时的背景图像路径 */
   background-size: cover;
 }
-.uiux .overlay-2 {
-  background-image: url("path/to/hover-image-2.jpg"); /* 悬停时的背景图像路径 */
+.uiux .overlay-2335 {
+  background-image: url("../img/img-2335b.png"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2328 {
+  background-image: url("../img/img-2328_02b.png"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2349 {
+  background-image: url("../img/img-2349b.jpg"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2325 {
+  background-image: url("../img/img-2325b.jpg"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2328_07b {
+  background-image: url("../img/img-2328_07b.png"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2328_02b {
+  background-image: url("../img/img-2328_02b.png"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2328_03b {
+  background-image: url("../img/img-2328_03.png"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2401 {
+  background-image: url("../img/img-2401b.jpg"); /* 悬停时的背景图像路径 */
+  background-size: cover;
+}
+.uiux .overlay-2328_07c {
+  background-image: url("../img/img-2328_07c2.jpg"); /* 悬停时的背景图像路径 */
   background-size: cover;
 }
 .uiux .image-container:hover .overlay {
@@ -358,6 +383,21 @@ body {
   align-items: center;
 }
 
+.iro_2317 .container .sarita-box05 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.iro_2317 .container img {
+  max-width: 100%;
+}
+.iro_2317 .sarita-box06 {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
 .bg-tertiary {
   background-color: rgba(255, 255, 255, 0.938); /* 白色背景*/
 }
@@ -388,6 +428,11 @@ span.txt {
   line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
   letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
   font-size: 16px;
+}
+
+p.special_c {
+  font-size: 30px;
+  line-height: 300%; /* 将行高设置为文字大小的1.5倍 */
 }
 
 p.txt {

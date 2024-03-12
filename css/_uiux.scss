@@ -169,6 +169,12 @@
 
 
 
+.overlay-2400{
+    background-image: url('../img/img-2400_01b.jpg'); /* 悬停时的背景图像路径 */
+    background-size: cover;
+}
+
+
 
 .image-container:hover .overlay {
     opacity: 1; /* 悬停时显示 */

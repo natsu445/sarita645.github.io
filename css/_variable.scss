@@ -99,6 +99,17 @@ font-weight: bold;
 }
 
 
+//螢光筆效果
+p.txt-highlight{
+    background-color: rgb(247, 245, 237); /* 背景色設定為黃色，模仿螢光筆 */
+    // padding: 0 5px; /* 文字左右兩側的內邊距，讓效果更明顯 */
+    border-radius: 3px; /* 圓角邊框，讓效果更柔和 */
+display: inline-block;
+
+
+}
+
+
 //*標題方框*//
 p.txtframe{
     line-height: 200%; /* 将行高设置为文字大小的1.5倍 */

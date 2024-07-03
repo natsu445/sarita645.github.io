@@ -464,6 +464,12 @@ p.txtB {
   font-weight: bold;
 }
 
+p.txt-highlight {
+  background-color: rgb(247, 245, 237); /* 背景色設定為黃色，模仿螢光筆 */
+  border-radius: 3px; /* 圓角邊框，讓效果更柔和 */
+  display: inline-block;
+}
+
 p.txtframe {
   line-height: 200%; /* 将行高设置为文字大小的1.5倍 */
   letter-spacing: 2px; /* 将文字字符之间的水平间距增加为 2 像素 */
